@@ -1,13 +1,12 @@
 const flowbite = require("flowbite-react/tailwind");
-const defaultTheme = require("tailwindcss/defaultTheme");
- 
-const colors = require("tailwindcss/colors");
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
 
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}","./components/**/*.{js,ts,tsx,jsx}", flowbite.content()],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,tsx,jsx}",
+    flowbite.content(),
+  ],
   darkMode: "class",
 
   theme: {
@@ -19,24 +18,18 @@ module.exports = {
       secondaryDark: "#10A4FF",
       secondaryLight: "#24BCFF",
       white: "#FFFFFF",
+      paragraphText: "#EEEEEE",
     },
     extend: {
       fontFamily: {
         alacrity: ["Alacrity Sans", "Roboto"],
       },
+
+      backgroundImage: {
+        "brand-img": "url('assets/logo/Brand.png')",
+      },
     },
   },
 
-  plugins: [flowbite.plugin(), addVariablesForColors],
+  plugins: [flowbite.plugin()],
 };
-
-function addVariablesForColors({ addBase, theme }: any) {
-  let allColors = flattenColorPalette(theme("colors"));
-  let newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
-  );
-
-  addBase({
-    ":root": newVars,
-  });
-}

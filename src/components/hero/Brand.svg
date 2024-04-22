@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1389.82 1050">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0dacff;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <image class="cls-2" width="1676" height="1257" transform="translate(1483.4 591.48) rotate(-168.27) scale(.57 -.57)" xlink:href="../../../../../../../../Applications/IT Creation work/IT Creation/Current/2B089B0FE5D8DD30.png"/>
+  <image class="cls-2" width="2492" height="1164" transform="translate(1020.58 288.62) rotate(-151.59) scale(.45 -.45)" xlink:href="../../../../../../../../Applications/IT Creation work/IT Creation/Current/2B089B0FE5D8DD31.png"/>
+  <path class="cls-1" d="M835.49,837.56c4.36,3.14,12.67,11.05,12.67,11.05h-145.54v-233.11c0-38.82-31.52-70.34-70.34-70.34h-233.11v-173c2.33,2.03,6.18,3.95,11.05,7.6v154.46h222.06c44.9,0,81.38,36.49,81.38,81.38v222.06h121.82v-.1Z"/>
+  <path class="cls-1" d="M1017.11,534.22v185.98c-4.56-1.32-8.21-2.74-11.05-3.85v-171.18h-222.06c-44.9,0-81.38-36.49-81.38-81.38V241.72h-100.34l-19.76-11.05h131.05v233.11c0,38.82,31.52,70.34,70.34,70.34h233.21v.1Z"/>
+</svg>

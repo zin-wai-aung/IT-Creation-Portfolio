@@ -1,9 +1,11 @@
 import React from "react";
 import Button from "../reusable/Button";
+import Logo from "../reusable/Logo";
+import BrandMessage from "../hero/Brand.png";
 
 const HeroSection = () => {
   return (
-    <main className=" container mx-auto">
+    <main className=" container mx-auto h-[80vh] relative w-full pt-40">
       <div className=" w-full flex justify-center items-center gap-52 ">
         <div className=" flex flex-col justify-start gap-14 w-1/2">
           <h1 className=" text-4xl text-white">
@@ -23,10 +25,11 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="">
-          <div className=" bg-secondary w-[26rem] h-[26rem]"></div>
-        </div>
+          <div className=" w-[26rem] h-[26rem]">
           </div>
-          {/* <BgBeams /> */}
+        </div>
+        <img src={BrandMessage} className=" absolute left-[36rem] w-[48rem] top-20 z-10" alt="Branding Image" />
+      </div>
     </main>
   );
 };

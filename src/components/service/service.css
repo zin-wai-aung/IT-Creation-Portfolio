@@ -1,0 +1,24 @@
+  .service-background{
+  background-image:url('./img/service1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+  .service-background:hover{
+    background-image:
+    linear-gradient(to right,
+     #004238cc, #004238aa ),
+     url('./img/service1.jpg');
+    }
+
+    .image-cover  {
+      height:260px;
+    }
+  
+    .content-div:hover .fd-cl{ 
+ opacity: 0.25;
+    }
+    .content-div:hover .fd-sh{ 
+ opacity: 1;
+    }
+
