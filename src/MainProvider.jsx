@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import { ThemeProvider } from "@material-tailwind/react";
 
-const MainProvider = ({children}) => {
+const MainProvider = ({ children }) => {
   return (
-    <Router>{children}</Router>
-  )
-}
+    <Router>
+      <ThemeProvider>{children}</ThemeProvider>
+    </Router>
+  );
+};
 
-export default MainProvider
+export default MainProvider;

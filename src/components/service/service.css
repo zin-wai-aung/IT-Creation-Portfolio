@@ -1,24 +1,43 @@
-  .service-background{
-  background-image:url('./img/service1.jpg');
+.service-background1 {
+  background-image: url("./img/service1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
 }
-  .service-background:hover{
-    background-image:
-    linear-gradient(to right,
-     #004238cc, #004238aa ),
-     url('./img/service1.jpg');
-    }
+.service-background1:hover {
+  background-image: linear-gradient(to right, #004238cc, #004238aa),
+    url("./img/service1.jpg");
+}
 
-    .image-cover  {
-      height:260px;
-    }
-  
-    .content-div:hover .fd-cl{ 
- opacity: 0.25;
-    }
-    .content-div:hover .fd-sh{ 
- opacity: 1;
-    }
+.service-background2 {
+  background-image: url("./img/service2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.service-background2:hover {
+  background-image: linear-gradient(to right, #662E91cc, #662E91aa),
+    url("./img/service2.jpg");
+}
 
+.service-background3 {
+  background-image: url("./img/service3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.service-background3:hover {
+  background-image: linear-gradient(to right, #c49e33cc, #c49e33aa),
+    url("./img/service3.jpg");
+}
+
+.image-cover {
+  height: 260px;
+}
+
+.content-div:hover .fd-cl {
+  opacity: 0.25;
+}
+.content-div:hover .fd-sh {
+  opacity: 1;
+}

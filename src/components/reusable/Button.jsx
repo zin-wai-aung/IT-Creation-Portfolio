@@ -2,13 +2,8 @@ import React from 'react'
 
 const Button = ({title}) => {
   return (
-    // <button className="group relative h-12 w-48 overflow-hidden rounded-full bg-secondary text-lg font-bold text-white">
-    //   {title}
-    //   <div className="absolute inset-0 h-full w-full scale-0 rounded-full transition-all duration-300 group-hover:scale-100 group-hover:bg-white/20"></div>
-    // </button>
-    <button className="group relative h-12 w-40 overflow-hidden rounded-lg bg-secondary text-lg shadow">
-      <div className="absolute inset-0 w-1 bg-white transition-all duration-300 ease-out group-hover:w-full"></div>
-      <span className="relative text-white group-hover:text-primary"> {title} </span>
+    <button className="text-red hover:before:bg-redborder-secondary relative h-[50px] w-40 overflow-hidden border border-secondary px-3 text-secondary shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-secondary before:transition-all before:duration-500 hover:text-white hover:shadow-secondary hover:before:left-0 hover:before:w-full">
+      <span className="relative z-10">{title}</span>
     </button>
   );
 }

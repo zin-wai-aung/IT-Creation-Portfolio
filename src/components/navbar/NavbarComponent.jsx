@@ -11,7 +11,7 @@ const NavbarComponent = () => {
 
   return (
     <Navbar className=" bg-primary z-50 shadow-lg fixed w-full mx-auto ">
-      <div className=" container mx-auto w-[90%] md:w-full my-2 h-26 flex justify-center items-center">
+      <div className=" container mx-auto w-[90%] md:w-full my-2 h-20 flex justify-center items-center">
         <div className=" container flex justify-between items-center w-full mx-auto">
           <Navbar.Brand className=' '>
             <div className=" w-48 h-24 flex items-center">

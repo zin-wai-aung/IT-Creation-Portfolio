@@ -1,5 +1,6 @@
 import React from 'react'
 import ServiceCard from '../components/service/ServiceCard';
+import ServiceCardTest from '../components/service/ServiceCardTest';
 
 const Service = () => {
   return (
@@ -11,7 +12,10 @@ const Service = () => {
         <h1 className=" text-4xl text-white">Solution We Provided </h1>
       </div>
 
+      <div className=" mt-10">
+
       <ServiceCard />
+      </div>
     </main>
   );
 }
