@@ -1,17 +1,19 @@
 import React from "react";
 import NavbarComponent from "../components/navbar/NavbarComponent";
 import CountryMap from "../components/reusable/CountryMap"
+import PageTitle from "../components/reusable/PageTitle";
 const About = () => {
     return (
-        <>
+      <>
         <main id="about" className=" container mx-auto mt-32">
           <div className=" w-full flex justify-center items-center gap-40 ">
             <div className="">
-                        <div className=" w-[30rem] h-[30rem]">
-                            <CountryMap/>
+              <div className=" w-[30rem] h-[30rem]">
+                <CountryMap />
               </div>
             </div>
-            <div className=" flex flex-col justify-start gap-4 w-1/2">
+            <div className=" flex flex-col justify-start gap-3 w-1/2 ">
+
               <p className=" text-secondary text-2xl uppercase font-bold">
                 Who We Are
               </p>
